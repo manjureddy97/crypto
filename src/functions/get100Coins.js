@@ -11,6 +11,7 @@ export const get100Coins = () => {
     })
     .catch((error) => {
       console.log("ERROR>>>", error.message);
+      
     });
 
   return coins;
